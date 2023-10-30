@@ -1,0 +1,65 @@
+.css-46bh2p-MuiCardContent-root {
+  padding: 0 !important;
+}
+.logo-container {
+  width: 100px; /* Adjust this value based on your desired width */
+  height: 70px; /* Adjust this value based on your desired height */
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.buttonNav {
+  font-size: 18px;
+  color: white !important;
+  font-family: inherit;
+  font-weight: 700 !important;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.buttonNav:focus,
+.buttonNav:hover {
+  color: #fff;
+}
+
+.buttonNav:focus:after,
+.buttonNav:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.buttonNav:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #39e991;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+.simpleBtn {
+  font-size: 13px !important;
+  color: white !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  background: #262833 !important;
+  text-transform: uppercase;
+}
