@@ -1,5 +1,5 @@
 
-# Movie Management System
+# MovieApp
 
 Movie Management System is a web application built using MongoDB, Node.js with Express.js for the backend, and React.js for the frontend. It allows users to manage a collection of movies, including adding, viewing, updating, and deleting movie records.
 
@@ -29,7 +29,22 @@ Movie Management System is a web application built using MongoDB, Node.js with E
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone <repository_url>
-```
+To get MovieApp running locally on your machine, follow these steps:
+
+1. Clone the repository to your local machine:
+   ```sh
+   git clone https://github.com/elimelechAdam/MovieApp.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd MovieApp
+   ```
+3. Install the necessary dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+The application will now be running on `http://localhost:3000`.
