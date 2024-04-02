@@ -1,0 +1,20 @@
+# MovieApp
+
+MovieApp is a dynamic web application designed for movie enthusiasts.
+It allows users to search for movies,view detailed information about each movie, including cast, plot summaries, ratings, and trailers.
+Built with React, it showcases a modern user interface and offers a seamless browsing experience.
+
+## Features
+
+- **Search Functionality**: Easily search for movies using the search bar.
+- **Detailed Movie Information**: Get detailed information about each movie, including cast, synopsis, and ratings.
+- **Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
+- **Favorites List**: Add movies to your favorites list for easy access.
+
+## Installation
+
+To get MovieApp running locally on your machine, follow these steps:
+
+1. Clone the repository to your local machine:
+   ```sh
+   git clone https://github.com/elimelechAdam/MovieApp.git
